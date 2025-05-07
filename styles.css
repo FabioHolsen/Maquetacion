@@ -1,5 +1,8 @@
-body {
+body{
     margin: 0;
+}
+html {
+
 }
 .roboto{
     font-family: "Roboto", sans-serif;
@@ -16,25 +19,27 @@ body {
     height: 500px;
 }
 .menu {
-    height: 50px;
-    width: 500px;
+    height: 10%;
+    width: 25%;
     color: white;
     background-color: black;
     position: absolute;
     right: 0px;
-    top: 100px;
+    top: 20%;
     display: flex;
     align-items: center;
 }
 .enlaces {
     display: flex;
+    flex-direction: row;
     flex: 50%;
     align-items: center;
     font-weight: 300;
     list-style: none;
+    padding: 0;
 }
 .enlaces li:first-of-type{
-    padding-left: 30px;
+    padding-left: 10%;
 }
 .enlaces li a {
     padding: 10px;
@@ -43,10 +48,19 @@ body {
     color: white;
 }
 
+.enlaces li a:hover{
+    color: orange;
+}
+
+.icono{
+    height: 30px;
+    width: 30px;
+}
+
 .contenedor {
     display: flex;
     align-items: center;
-    height: 500px;
+    height: 700px;
     padding-left: 10%;
     padding-right: 10%;
     
@@ -58,12 +72,12 @@ body {
     background-color: white;
     height: 100%;
     align-items: center;
-    margin-top: -50px;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-top: -5%;
+    margin-right: 1%;
+    margin-left: 1%;
 }
 .item img {
-    padding: 20px;
+    padding: 5%;
     width: 70%;
 }
 
@@ -73,7 +87,30 @@ body {
 }
 .item p:last-child {
     margin: 0px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
     text-align: justify;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: white;
+    height: 100%;
+    align-items: center;
+    margin-top: -5%;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+footer {
+    background-color: grey;
+}
+footer p {
+    text-align: center;
+    color: white;
+    margin: 0px;
+    padding: 5px;
+    font-weight: 500;
 }
