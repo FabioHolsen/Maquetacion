@@ -20,7 +20,7 @@ html {
 }
 .menu {
     height: 10%;
-    width: 25%;
+    width: 30%;
     color: white;
     background-color: black;
     position: absolute;
@@ -41,8 +41,8 @@ html {
 .enlaces li:first-of-type{
     padding-left: 10%;
 }
-.enlaces li a {
-    padding: 10px;
+.enlaces li, a {
+    padding: 1%;
     list-style: none;
     text-decoration: none;
     color: white;
