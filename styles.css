@@ -143,3 +143,6 @@ footer p {
     width: 100px;
     height: 30px;
 }
+.boton:hover{
+    cursor: pointer;
+}
