@@ -36,8 +36,20 @@
         <main>
             <div class="contenedor">
                 <div class="form">
-        
-                </div>
+                    <form class="formulario">
+                        <label for="nomape">Nombre y apellido:*</label><br>
+                        <input type="text" id="nomape" name="nomape" required class="texto"><br>
+                        <label for="mail">Correo Electronico:*</label><br>
+                        <input type="email" id="mail" name="mail" required class="texto"><br>
+                        <label for="telefono">Telefono de contacto:*</label><br>
+                        <input type="tel" id="telefono" name="telefono" required class="texto"><br>
+                        <label for="mensaje">Mensaje:*</label><br>
+                        <input type="text" id="mensaje" name="mensaje" required class="texto"><br>
+                        <input type="checkbox" id="acepto" name="acepto" value="si">
+                        <label for="acepto">He leído y acepto la <a href="#">Politica de privacidad</a></label><br>
+                        <input type="button" value="Enviar" class="boton">
+                    </form>
+                </div>        
             </div>
         </main>
         <footer>
